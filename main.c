@@ -47,7 +47,9 @@ int * sort(int arr[], int n)
 //aaa
 int main()
 {
+    //variabler og pointervariabler
     int *numbers, *sortedNumbers;
+
     numbers = ManyNumbers(amountNumbers);
     sortedNumbers = sort(numbers, amountNumbers);
     printArray(sortedNumbers, amountNumbers);
