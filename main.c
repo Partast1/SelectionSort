@@ -52,6 +52,5 @@ int main()
     sortedNumbers = sort(numbers, amountNumbers);
     printArray(sortedNumbers, amountNumbers);
 
-    //ManyNumbers(amountNumbers);
     return 0;
 }
