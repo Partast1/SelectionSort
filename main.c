@@ -47,7 +47,7 @@ int * sort(int arr[], int n)
 //aaa
 int main()
 {
-    int *numbers, *sortedNumbers, i;
+    int *numbers, *sortedNumbers;
     numbers = ManyNumbers(amountNumbers);
     sortedNumbers = sort(numbers, amountNumbers);
     printArray(sortedNumbers, amountNumbers);
